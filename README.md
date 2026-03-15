@@ -9,6 +9,15 @@
 A financial NLP pipeline that classifies the monetary policy tone of central bank speeches — **Hawkish 🦅, Neutral ⚖️, or Dovish 🕊️** — using zero-shot semantic similarity over FinBERT embeddings. No labelled training data required.
 
 ---
+ 
+## 💡 Motivation
+ 
+Central bank statements move markets, but they are lengthy, carefully worded documents that take significant time to interpret consistently across multiple institutions and meeting cycles. Portfolio managers and analysts need to quickly gauge not just what was decided, but the directional bias behind it — whether the language leans toward further tightening, a pause, or easing — since that distinction directly drives positioning across rates, FX, and equities.
+ 
+This tool automates the first-pass triage. It produces an objective, reproducible tone classification in seconds, freeing up analyst attention for what follows: forming the macro view, sizing the risk, and adjusting the portfolio.
+ 
+
+---
 
 ## 📊 Results
 
